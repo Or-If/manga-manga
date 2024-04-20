@@ -2,6 +2,8 @@
 
 > This is a manga viewer. We should be able to view manga!
 
+We're going to use the [Mangadex API](https://api.mangadex.org/docs/)
+
 # Functional Requirements:
 
 1. We show a list of manga on the page.
