@@ -12,7 +12,8 @@ function App() {
   }, [])
 
 
-  const mangaMap = mangaData?.data.map((d) => {
+
+  const mangaMap = mangaData?.data.splice(0, 20).map((d) => {
     return <MangaCard data={d}></MangaCard>
   })
 
